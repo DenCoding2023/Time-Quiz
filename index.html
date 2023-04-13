@@ -16,34 +16,70 @@
 </head>
 
 <body>
-    <header>
-            <h1> Web API Quiz</h1>
-    </header>
-<!-- Section for score and timer to be viwed -->
-<section id=" keeping_score" style="display: none">
-        <input type="button" value="High Score" onclick= "high_score()">
-</br>
-        Score: <var id="score"></var>
+  <!-- this is the main div on the outside -->
+  <div calss="outer-container">
 
-</section>
+      <!-- top bar  come to this section and change the top bar -->
+      <div class="top-bar"> 
+          <button>View Highschores</button>
+            <p> Timer:00:00</p>
+      </div>
+      <!-- inner dive -->
 
-        <section id="timer_countdown" style="display: none">
-        Time countdown: <span id="timer"></span>
-        
-        </section>
+      <!-- change titiel here -->
+      <div class="inner-container">
+        <!-- main hdeader / quiz intro -->
+
+            <header class="quiz-intro"> 
+              <h1>Welcome to the Web API Quiz</h1>
+              <p> To get Started with the quiz, start the quiz.</p>
+              
+
+            </header>
+            <!-- main content -->
+            <main>
 
 
-</section>
-    <div class="keeping score">
+            </main>
+          </div>
 
- <h1>?Q/h1>
- <p>Lets test your knolege on the following code related questions.
-        You will have 80 seconds to complete the quiz.</p>
- <p>Each time that you get a question wrong you will loose 5 seconds for the tiemer.
-        Once the timer counts to 0, the game is over!!!.</p>
+  </div>
+<!-- 
+<div class="scores"><a href="score.html">View Highscores</a></div>
+
+<div class="timer">Time: <span id="time">0</span></div>
+
+<div class="wrapper">
+  <div id="start-screen" class="start">
+    <h1>Coding Quiz Challenge</h1>
+    <p>
+      Let's see what you know! Here are some code-related questions. Answer them all as quickly as you can and try to get the HIGH SCORE, but note that incorrect answers will result in a 10 second score/time penalty. Don't worry, you can try as many times as you want!
+    </p>
+    <button id="start">Start Quiz</button>
+  </div>
+
+  <div id="questions" class="hide">
+    <h2 id="question-title"></h2>
+    <div id="choices" class="choices"></div>
+  </div>
+
+  <div id="end-screen" class="hide">
+    <h2>All done!</h2>
+    <p>Your final score is <span id="final-score"></span>.</p>
+    <p>
+      Enter initials: <input type="text" id="initials" max="3" />
+      <button id="submit">Submit</button>
+    </p>
+  </div>
+
+  <div id="feedback" class="feedback hide"></div>
 </div>
 
+<script src=".questions.js"></script>
+<script src=".score.js"></script> -->
 
+
+    
 <script src=".assets/script.js"></script>
 </body>
 </html>
