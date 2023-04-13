@@ -30,13 +30,14 @@ p{
 }
 
 .inner-container{
-padding: 50px;
+/* padding: 50px; */
 background: black;
 height: 100%;
 width: 50%;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
+justify-content: center;
 }
 button{
   outline: none;
@@ -54,16 +55,26 @@ float: right;
 
 h1, h2 {
 color:bisque;
-font-size: medium;
-
+font-size: 20px;
+text-align: center;
 
 }
 
+.quiz-intro button{
+  display: block;
+  margin: 0 auto;
+
+}
 /* inner container section
 
 
 /* Header quiz sectoino*/
 
+.quiz-intro{
+  margin-bottom: 30vh;
+  margin-left: 10%;
+  margin-right: 10%;
 
+}
 
 /* Min quiz sections */
