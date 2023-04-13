@@ -3,16 +3,16 @@
 <meta charset="UTF-8">
 <title>Web API Quiz</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="./assets/css/style.css">
 
 <head>
-        <style>
+        <!-- <style>
                 body {
                     background-image:url("./assets/images/background.jpg");
                     background-repeat: no-repeat;
                     background-size: cover;
                     }
-        </style>
+        </style> -->
 </head>
 
 <body>
@@ -20,19 +20,27 @@
             <h1> Web API Quiz</h1>
     </header>
 <!-- Section for score and timer to be viwed -->
-<section id=" keeping score" style="display: none">
+<section id=" keeping_score" style="display: none">
         <input type="button" value="High Score" onclick= "high_score()">
 </br>
         Score: <var id="score"></var>
+
+</section>
+
+        <section id="timer_countdown" style="display: none">
+        Time countdown: <span id="timer"></span>
+        
+        </section>
 
 
 </section>
     <div class="keeping score">
 
  <h1>?Q/h1>
- <p>This is a paragraph.</p>
- <p>This is
-     another paragraph.</p>
+ <p>Lets test your knolege on the following code related questions.
+        You will have 80 seconds to complete the quiz.</p>
+ <p>Each time that you get a question wrong you will loose 5 seconds for the tiemer.
+        Once the timer counts to 0, the game is over!!!.</p>
 </div>
 
 
