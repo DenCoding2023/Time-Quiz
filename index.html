@@ -28,9 +28,10 @@
 
       <!-- change titiel here -->
       <div class="inner-container">
-        <!-- main hdeader / quiz intro -->
-
-            <header class="quiz-intro"> 
+        <!-- main hdeader / quiz intro   -->
+<!-- This is the basic format for the quiz -->
+            
+          <header class="quiz-intro"> 
               <h1>Welcome to the Web API Quiz</h1>
               <p> Lets start with a small quiz to test your knowlege
                 on Coding.</p>
@@ -39,10 +40,45 @@
               <p> To get Started with the quiz, start the quiz.</p>
               <p> To get Started with the quiz, start the quiz.</p>
 
-            </header>
+          </header>
             <!-- main content -->
+            <!-- Here is where we add the other sections for the quiz -->
             <main>
+              <section class="question-on-screen">
+                <h2>Screen Questions</h2>
+                <ul>
+                      <li><button>Answer 1</button></li>
+                      <li><button>Answer 2</button></li>
+                      <li><button>Answer 3</button></li>
+                      <li><button>Answer 4</button></li>
 
+              </section>
+
+              <!-- 3rd section  -->
+              <section class="quiz-finish-screen">
+                <h2>Quiz Finished*</h2>
+                <p>Your Score:00</p>
+
+                <div>
+                  <label for="">Enter Initials</label>
+                  <input type="text">
+                  <button>Submit</button>
+                  
+                </div>
+                </section>
+<!-- section for high score -->
+              <section class = "highscores-screen">
+                <h2> Highscores</h2>
+                <ol>
+                    <li> Dl - 20</li>
+                    <li> Dl - 20</li>
+                    <li> Dl - 20</li>
+                    <li> Dl - 20</li>
+                </ol>
+                <button>Go back</button>
+                <button>Clear Highschores</button>
+
+              </section>
 
             </main>
           </div>
