@@ -103,7 +103,7 @@ display: none;
   display:block;
 }
 
-.highschores-screen ol{
+.highschores-screen ol:hover{
   overflow:scroll;
   max-height: 200px;
 }
