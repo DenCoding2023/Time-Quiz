@@ -1,8 +1,10 @@
-*{margin: ;
-  padding:;
+*{
+  margin:0;
+  padding:0;
   box-sizing: border-box;
   border: 1px solid red;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
   /* this is the global defult font */
 }
 
@@ -45,7 +47,8 @@ button{
   outline: none;
   background-color: rgb(27, 27, 27);
   color:white;
-  font-size: 1.3em;
+  font-size: 4px;
+  width: 111px;
 }
 
 /* Thi5s iis the section for the top barr */
