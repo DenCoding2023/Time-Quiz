@@ -29,9 +29,9 @@ h2{
 }
 
 .container{
-    /* width: 362px;
-    height: 340px; */
-    /* display:flex ; */
+    /* /* /* width: 362px; */
+    /* height: 461px;  */
+    display:flex ;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
@@ -100,4 +100,13 @@ transform:scale(1.03);
 
 #highscore-bth:hover{
     box-shadow: 0.04rem 0 rgbba(225,255,0,0.5);
+}
+
+a#highscore-btn.btn{
+    margin-top: -43px;
+    margin-left: 385px;
+}
+
+a.btn{
+    margin-right:210px;
 }
