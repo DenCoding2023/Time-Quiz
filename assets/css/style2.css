@@ -65,7 +65,8 @@ h2{
 }
 
 .btn{
- font-size: x-large;
+ font-size: x-large; 
+ margin-left: 200px;
  padding: 3px;
  width: 139px;
  height: 38px;   
@@ -91,6 +92,22 @@ transform:scale(1.03);
     cursor: not-allowed;
     box-shadow: none;
     transform:none;
+}
+
+/* going back button2 */
+/* .btn1{
+    margin-left: 419px;
+    font-size: x-large;
+    background-color: #0ae3e3;
+    border-radius: 9px;
+    border: 3px solid #0d0c0c;
+    width: 120rem;
+    height: 38px;  
+
+} */
+
+#start-Over{
+width: 200px;
 }
 
 #highschore-btn{
